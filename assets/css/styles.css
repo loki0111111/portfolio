@@ -1500,9 +1500,10 @@ nav .brand-name h1{
 /* contact section starts here  */
 .contact-section{
     padding: 10vh 6vw 7vh 6vw;
-    background-image: url(images/chat-bg.png);
+    background-image: url(images/chat-bg2.png);
+    background-size: cover;
     background-position: center center;
-    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
 }
