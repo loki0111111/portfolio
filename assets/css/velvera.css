@@ -14,7 +14,10 @@ html{
 
 .jomar-details{
     padding: 10vh 6vw 3vh 6vw;
-    background-image: url(../css/images/header-bg.png);
+    background-image: url(../css/images/chat-bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

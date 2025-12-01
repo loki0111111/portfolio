@@ -14,8 +14,8 @@ html{
 
 /* header starts here  */
 header{
-    background-image: url(images/header-bg.png);
-    background-position: center;
+    background-image: url(images/chat-bg2.png);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -502,7 +502,10 @@ nav .brand-name h1{
 /* about section starts here  */
 .about-section{
     padding: 10vh 6vw 3vh 6vw;
-    background-image: url(images/header-bg.png);
+    background-image: url(images/chat-bg2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     gap: 8vh;
@@ -863,7 +866,10 @@ nav .brand-name h1{
 /* portfolio showcase starts here  */
 .portfolio-showcase{
     padding: 10vh 6vw 3vh 6vw;
-    background-image: url(images/header-bg.png);
+    background-image: url(images/chat-bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     gap: 3vh;
@@ -1494,7 +1500,9 @@ nav .brand-name h1{
 /* contact section starts here  */
 .contact-section{
     padding: 10vh 6vw 7vh 6vw;
-    background-image: url(images/header-bg.png);
+    background-image: url(images/chat-bg.png);
+    background-position: center center;
+    background-size: contain;
     display: flex;
     flex-direction: column;
 }
