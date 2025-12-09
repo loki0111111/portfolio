@@ -115,10 +115,12 @@ const seeMore = document.getElementById('see-more')
 const seeLess = document.getElementById('see-less')
 const projectFourth = document.getElementById('project-fourth')
 const projectFifth = document.getElementById('project-fifth')
+const projectThird = document.getElementById('project-third')
 
 seeMore.addEventListener('click', () => {
     projectFourth.style.display = 'flex'
     projectFifth.style.display = 'flex'
+    projectThird.style.display = 'flex'
     seeMore.style.display = 'none'
     seeLess.style.display = 'flex'
 })
@@ -127,6 +129,7 @@ seeMore.addEventListener('click', () => {
 seeLess.addEventListener('click', () => {
     projectFourth.style.display = 'none'
     projectFifth.style.display = 'none'
+    projectThird.style.display = 'none'
     seeMore.style.display = 'flex'
     seeLess.style.display = 'none'
 })

@@ -1,0 +1,629 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.jomar-details{
+    padding: 10vh 6vw 3vh 6vw;
+    background-image: url(../css/images/chat-bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.nav-back{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.nav-back .back a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 7px;
+    font-weight: 500;
+    background-color:#1E1233;
+    backdrop-filter: blur(5px);
+    padding: 12px 20px 12px 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.137);
+}
+
+
+
+
+.nav-back .back a:hover{
+    background-color: #281C3F;
+}
+
+
+
+
+.nav-back .back a:hover i{
+    transform: translateX(-3px);
+    transition: 1s;
+}
+
+
+
+.nav-back .back a i{
+    font-size: 15px;
+    color: #DCDCDF;
+}
+
+
+
+.nav-back .back a p{
+    font-family: Inter;
+    font-size: 16px;
+    color: #DCDCDF
+}
+
+
+
+.nav-back .back-project{
+    color: #797485;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.nav-back i{
+    font-size: 10px;
+    color: #797485;
+}
+
+
+
+.nav-back .jomarName{
+    font-size: 16px;
+    font-family: Inter;
+    color: #DCDCDF;
+}
+
+
+
+
+.jomar-two-containers{
+    margin: 5vh 0vw 0vh 0vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
+.jomar-first-container{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    width: 45%;
+}
+
+
+
+.first-cont-h{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+
+
+.first-cont-h h1{
+    background: linear-gradient(to  right, #C2DAFF, #DFD6FF);
+    color: transparent;
+    background-clip: text;
+    font-family: Inter;
+    font-size: 60px;
+}
+
+
+.first-cont-h .h-width{
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #666AEF, #873AC6);
+}
+
+
+
+.first-cont-h p{
+    color: #B1B4BE;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+
+
+
+.tech-features{
+    background-color: #0B0A1D;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 1vw;
+}
+
+
+
+.fea-tech{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    border: 1px solid #8ec5ff2f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.fea-tech:hover{
+    transform: scale(1.04);
+    transition: 1s;
+    border: 1px solid #8ec5ffab;
+}
+
+
+
+
+
+.database-fea-tech{
+    border: 1px solid #dab2ff31;
+}
+
+
+
+.database-fea-tech:hover{
+    border: 1px solid #dab2ffb9;
+}
+
+
+
+.fea-tech i{
+    color: #8EC5FF;
+    background-color: #1C2D58;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+
+
+#database-icon{
+    color: #DAB2FF;
+    background-color: #372158;
+}
+
+
+
+.fea-tech span{
+    color: #8EC5FF;
+    background-color: #1C2D58;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+
+
+
+.fea-tech-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+
+.fea-tech h3{
+    color: #BEDBFF;
+    font-family: Inter;
+}
+
+
+
+
+.fea-tech p{
+    color: #8E95A4;
+    text-transform: capitalize;
+    font-family: Inter;
+    font-size: 13px;
+}
+
+
+
+
+.demo-github{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+
+
+.dem-git{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    border: 1px solid #8ec5ff2f;
+    font-family: Inter;
+    background: #11042A;
+    padding: 20px 25px 20px 25px;
+    border-radius: 15px;
+}
+
+
+
+.dem-git:hover{
+    border: 1px solid #8ec5ff5e;
+    transition: 1s;
+}
+
+
+
+
+.demo-github .github{
+    background: #180220;
+    border: 1px solid #dab2ff31;
+}
+
+
+
+.demo-github .github:hover{
+    border: 1px solid #dab2ff63;
+    transition: 1s;
+}
+
+
+
+.dem-git span{
+    color: #8EC5FF;
+    font-size: 20px;
+}
+
+
+
+#github-icon{
+    color: #DAB2FF;
+    font-size: 22px;
+}
+
+
+
+.github-p{
+    color: #DAB2FF!important;
+    font-size: 17px;
+}
+
+
+
+.dem-git p{
+    color: #8EC5FF;
+    font-size: 17px;
+    font-family: Inter;
+}
+
+
+
+.technologies-used{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+
+.technologies-used-h{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.technologies-used-h i{
+    color: #8EC5FF;
+    font-size: 25px;
+}
+
+
+
+.technologies-used-h h2{
+    color: white;
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+
+
+.technologies-languages{
+    display: flex;
+    align-items: center;
+    color: #8EC5FF;
+    font-family: Inter;
+    gap: 15px;
+}
+
+
+
+.technologies-languages .languages{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #8ec5ff2a;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    cursor: default;
+    background-color: #08092B;
+}
+
+
+
+.technologies-languages .languages:hover{
+    background-color: #200B40;
+    transition: 1s;
+    border: 1px solid #8ec5ff7e;
+}
+
+
+
+.languages span{
+    font-size: 20px;
+}
+
+
+.languages h6{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+.jomar-second-container{
+    width: 45%;
+}
+
+
+
+.jomar-img img{
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.171);
+}
+
+
+
+.key-features{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    border: 1px solid rgba(255, 255, 255, 0.321);
+    padding: 25px 30px 25px 30px;
+    border-radius: 10px;
+}
+
+
+.key-features-h{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5vh;
+}
+
+
+
+.key-features-h span{
+    color: gold;
+    font-size: 20px;
+}
+
+
+.key-features-h h1{
+    font-family: Inter;
+    font-size: 20px;
+    color: white;
+}
+
+
+.key-features-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+.key-features-cont{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.key-features-cont:hover{
+    background-color: #211c41a6;
+    backdrop-filter: blur(5px);
+    transition: 1s;
+}
+
+
+
+.key-features-cont i{
+    color: #B085FF;
+    font-size: 8px;
+}
+
+
+
+.key-features-cont p{
+    font-family: Inter;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/* media query starts here  */
+@media screen and (max-width: 850px) {
+    .jomar-two-containers{
+    flex-direction: column;
+    gap: 10vh;
+}
+
+
+
+
+
+    .jomar-first-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    width: 100%;
+}
+
+
+
+
+    .jomar-second-container{
+    width: 100%;
+}}
+
+
+
+@media screen and (max-width: 600px) {
+    .jomar-details{
+    padding: 5vh 3vw 3vh 3vw;
+}
+
+
+
+    .first-cont-h h1{
+    font-size: 40px;
+}
+
+
+
+    
+    .first-cont-h .h-width{
+    width: 60px;
+    height: 4px;
+}
+
+
+
+    
+    .first-cont-h p{
+    font-size: 17px;
+}
+
+
+
+    .tech-features{
+    padding: 10px;
+    gap: 5vw;
+}
+
+
+
+
+
+    .demo-github{
+    gap: 3vw;
+}
+
+
+
+
+    .dem-git{
+    gap: 5px;
+    padding: 12px 15px 12px 15px;
+}
+
+
+
+
+    .github-p{
+    font-size: 15px;
+}
+
+
+
+    .dem-git p{
+    font-size: 15px;
+}
+
+
+
+    .technologies-used-h h2{
+    font-size: 17px;
+}
+
+
+
+
+    .languages h6{
+    font-size: 13px;
+}
+
+
+
+    
+.technologies-languages .languages{
+    gap: 3px;
+    padding:7px 10px 7px 10px;
+}}
+
+
+
+@media screen and (max-width: 476px) {
+    .tech-features{
+    flex-direction: column;
+}}
+
+
+
+
+@media screen and (max-width: 375px) {
+    .technologies-languages{    
+    flex-direction: column;
+    align-items: flex-start;
+}}
+
+
+@media screen and (max-width: 600px) {
+    .key-features{
+    padding: 15px 20px 15px 20px;
+}
+
+
+
+
+    .key-features-cont p{
+    font-size: 14px;
+}
+
+
+
+    .key-features-content{
+    padding: 0px;
+}}
+/* media query ends here  */
