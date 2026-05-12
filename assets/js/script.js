@@ -148,3 +148,18 @@ seeLess.addEventListener('click', () => {
 
 const footerYear = document.getElementById('footer-year')
 footerYear.innerHTML = new Date().getFullYear()
+
+
+
+// animation starts here 
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal, .reveal-left, .reveal-right')
+    .forEach(el => observer.observe(el));
+// animation ends here 
