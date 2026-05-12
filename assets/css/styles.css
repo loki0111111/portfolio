@@ -1021,6 +1021,8 @@ nav .brand-name h1{
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    min-height: 1px;
+    justify-content: space-between;
     width: 25vw;
     background-color: #211c41a6;
     backdrop-filter: blur(5px);
@@ -1118,7 +1120,7 @@ nav .brand-name h1{
 
 
 
-.project-fourth, .project-fifth, .project-third{
+.project-fourth, .project-fifth, .project-third, .project-sixth, .project-eight, .project-seventh{
     display: none;
 }
 
